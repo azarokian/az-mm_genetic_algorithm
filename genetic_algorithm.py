@@ -2,8 +2,8 @@ import numpy as np
 import heapq
 from scipy.spatial import distance
 import random
-from lib.Travelling_Salesman_Optimization.genetic import GeneticAlgorithm 
-from lib.Travelling_Salesman_Optimization.util import * 
+from lib.travelling_salesman_optimization.genetic import GeneticAlgorithm 
+from lib.travelling_salesman_optimization.util import * 
 
 import warnings
 warnings.filterwarnings("ignore", message="Creating an ndarray from ragged nested sequences")
